@@ -1,0 +1,20 @@
+{
+  "name": "saturdaypractice",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start":"webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "description": "",
+  "dependencies": {
+    "css-loader": "^0.28.7"
+  }
+}
